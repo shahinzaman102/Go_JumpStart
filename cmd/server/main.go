@@ -76,11 +76,16 @@ func main() {
 	}()
 
 	// Start main HTTP server
+	port := os.Getenv("PORT")
+	if port == "" {
+		port = "8080" // fallback for local development
+	}
+
 	srv := &http.Server{
-		Addr:    ":8080",
+		Addr:    ":" + port,
 		Handler: router,
 	}
-	log.Println("server running at http://localhost:8080")
+	log.Printf("server running at http://localhost:%s", port)
 	if err := srv.ListenAndServe(); err != nil && err != http.ErrServerClosed {
 		log.Fatalf("main server error: %v", err)
 	}
