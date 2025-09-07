@@ -17,7 +17,7 @@
 
 ---
 
-### 🔗 Deployed URL →
+### 🔗 Deployed URL → <https://go-jumpstart.onrender.com>
 
 ### 🔗 Get Started with the Project → [Project Running & Testing Guide](https://docs.google.com/document/d/1pVc9nQqw61TJvu8CowxVPOS0yeoB4pAWaCaUOBi5mqw/edit?usp=sharing)
 
@@ -100,7 +100,7 @@ The table below illustrates how these features are applied in this project.
 >
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Explore the **Echo framework version** of this Go JumpStart project:  
 >
-> - [Go JumpStart Echo](https://)  
+> - [Go JumpStart Echo](https://github.com/shahinzaman102/Go_JumpStart_Echo)  
 
 ---
 
